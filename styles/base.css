@@ -1,0 +1,75 @@
+/* colors and themes*/
+:root{
+    --white: #E8E9EB;
+    --primary: #40798C;
+    --secondary: #DA2C38;
+    --background: #E0DFD5;
+    --dark: #43291F;
+
+    --primary_font: Arial;
+    --secondary_font: sans-serif;
+};
+
+
+main {
+    max-width: 600px; /* Adjust this value to your desired width */
+    margin: 0 auto; /* This centers the element horizontally */
+    padding: 20px;
+    background-color: var(--background);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+}
+nav{
+    align-items: center;
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+.links-nav {
+    color: var(--white);
+    text-decoration: none;
+}
+
+footer{
+    color: var(--white);
+    text-decoration: none;
+    background-color: var(--primary);
+}
+
+.primary-box{
+    background-color: var(--primary);
+    color: var(--white);
+    border-radius: 2px;
+}
+
+li {
+    list-style-type: none;
+    color: black;
+}
+.card {
+    display: grid;
+    grid-template-columns: 1fr; /* Display in a single column */
+    gap: 20px; /* Adjust the gap between cards as needed */
+    background-color: var(--background);
+}
+
+section {
+    background-color: var(--background);
+    border: 2px solid var(--dark);
+    margin: 5px;
+    border-radius: 2px;
+}
+
+.header-content {
+    align-items: center; /* Vertically align items to the center */
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+/* Add some spacing between the image and the name */
+.header-content img {
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+

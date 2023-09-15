@@ -1,0 +1,9 @@
+- always put it right before the end of body
+<script src="java.js"></scrip>
+</body>
+
+
+- using variables in line in js
+`<strong>Volume</strong>: ${volume} liters`;
+
+
