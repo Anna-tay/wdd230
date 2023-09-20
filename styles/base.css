@@ -18,12 +18,24 @@ main {
     background-color: var(--background);
     border: 1px solid #ddd;
     border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
 
 }
 nav{
-    align-items: center;
+    flex: auto;
     background-color: #43291F;
     color: var(--white);
+    padding: 1rem;
+}
+
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
 }
 
 .links-nav {
