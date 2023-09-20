@@ -22,7 +22,7 @@ main {
 }
 nav{
     align-items: center;
-    background-color: var(--dark);
+    background-color: #43291F;
     color: var(--white);
 }
 

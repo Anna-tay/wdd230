@@ -19,10 +19,12 @@ h1 {
 }
 
 main {
+    grid-template-columns: auto;
 	display: grid;
 }
 
 h2 {
+    grid-column: span 2;
 	color: navy;
 	text-align: left;
 }
