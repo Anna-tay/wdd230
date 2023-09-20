@@ -1,4 +1,4 @@
-@media screen and (min-width: 500px)
+@media screen and (min-width: 500px){
 
 header {
     background-color: black;
@@ -7,4 +7,5 @@ header {
 
 main{
     grid-template-columns: 1fr 1fr;
+}
 }
