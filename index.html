@@ -7,8 +7,8 @@
     <meta name="author" content="Anna Taylor" />
     <meta
     name="description"
-    content="This is a course assignment portal from 
-    WDD 230 - Web Frontend Development by 
+    content="This is a course assignment portal from
+    WDD 230 - Web Frontend Development by
     Anna Taylor" />
     <!-- title and img for when people share -->
     <meta name="type" content="website" />
@@ -24,15 +24,17 @@
 </head>
 <body>
     <header class="header-content" style="text-align: center;">
+        <!-- hamburger button -->
+        <button id="menu"></button>
         <!-- profile image and name -->
         <div>
             <img src="images\Anna profile resized.jpg" alt="profile picture" width="65px" height="85px">
             <h1>Anna Taylor</h1>
         </div>
-
+        
     </header>
-    <nav>
-        <ul>
+    <nav >
+        <ul class="navigation">
             <li><a class = "links-nav" href="#">Home</a><br></li>
             <li><a class = "links-nav" href="chamber/siteplan.html">Site Plan</a><br></li>
             <li><a class = "links-nav" href="chamber/">Chamber</a><br></li>
@@ -42,7 +44,7 @@
     </nav>
 
     <main style="text-align: center;" >
-        
+
         <h2>WDD 230: Web Frontend Development</h2>
 
         <section class="card">
@@ -65,7 +67,7 @@
             </div>
             <p>will populate later</p>
         </section>
-        
+
    </main>
    <footer style="text-align: center;" >
     <p>&#169 2023 Anna Taylor, Idaho </p>
@@ -74,5 +76,6 @@
    </footer>
 
    <script src="scripts/getdata.js"></script>
+   <script src="scripts/hamburger.js"></script>
 </body>
 </html>
