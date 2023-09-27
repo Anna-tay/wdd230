@@ -39,6 +39,7 @@ nav a {
 	text-decoration: none;
     background-color: #43291F;
 }
+
 a{
     color: black;
 }
@@ -109,12 +110,6 @@ section {
 	content: "❌";
 }
 
-.navigation {
-	display: flex;
-	flex-direction: column;
-	list-style: none;
-	color: #fff;
-}
 .navigation li {
 	display: none;
 }
@@ -138,4 +133,10 @@ section {
 }
 .open li a {
 	display: block;
+}
+#billings{
+    width:100%;
+    height:500;
+    border:0;
+    display: none;
 }
