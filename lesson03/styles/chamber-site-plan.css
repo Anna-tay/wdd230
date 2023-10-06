@@ -36,6 +36,9 @@
     color: var(--white);
 }
 
+.boxs{
+    height: 30px;
+}
 /* fonts */
 .bigfont {
     font-family: var(--primary_font);
@@ -43,3 +46,4 @@
 .smallfont {
     font-family: var(--secondary_font);
 }
+

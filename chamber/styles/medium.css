@@ -1,0 +1,23 @@
+@media (min-width: 800px) {
+    .containor{
+        display:flex;
+        justify-content: space-between;
+    }
+
+    .left-section{
+        flex:1;
+    }
+
+    .right-section{
+        flex: 1;
+    }
+
+    #menu{
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+    }
+
+}

@@ -116,9 +116,7 @@ section {
 .navigation li a {
 	display: block;
 	padding: 1rem;
-	text-align: center;
 	text-decoration: none;
-	color: #fff;
 }
 .navigation li a:hover {
 	background-color: #bbb;
