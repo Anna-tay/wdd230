@@ -26,10 +26,16 @@
     <header class="header-content">
         <div class="containor">
             <!-- logo -->
-            <img src="images/chamberblack.png" alt="logo picture" width="30%" >
+            <img src="images/chamberblack.png" alt="logo picture" width="30%" id ="dark_pic">
 
             <!-- hamburger button -->
-            <button id="menu"></button>
+            <div class="right_group">
+                <label class="switch">
+                    <input type="checkbox" id="myCheckbox">
+                    <span class="slider"></span>
+                </label>
+                <button id="menu"></button>
+            </div>
             <nav>
                 <ul class="nav navigation">
                     <li class="nav-item"><a class = "nav-link active" href="#">Home</a><br></li>
@@ -62,11 +68,16 @@
             </section>
         </div>
 
-        <section>
-            <p>weather card</p>
-        </section>
+        <div class="weather-card">
+            <i class="icon">☀️</i>
+            <div class="details">
+                <h3>Sunny Day</h3>
+                <p>Temperature: 25°C</p>
+                <p>Humidity: 40%</p>
+            </div>
+        </div>
 
-        <section>
+        <section class="change">
             <p>company high lights</p>
         </section>
 
@@ -77,6 +88,7 @@
     <p id="lastModified"></p>
 
    </footer>
+   <script src="scripts/darkmode.js"></script>
 
    <script src="/scripts/getdata.js"></script>
    <script src="/scripts/hamburger.js"></script>
