@@ -50,10 +50,6 @@
     color: var(--white);
 }
 
-
-.change {
-    background-color: var(--white);
-}
 section{
     border-radius: 1rem;
     padding: 1rem;
@@ -149,11 +145,11 @@ section{
 }
 
 input:checked + .slider {
-  background-color: var(--background);
+  background-color: black;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px var(--primary);
+  box-shadow: 0 0 1px var(--white);
 }
 
 input:checked + .slider:before {
@@ -181,4 +177,36 @@ input:checked + .slider:before {
 
 .details {
     flex-grow: 1;
+}
+
+
+.calendar {
+    font-family: Arial, sans-serif;
+}
+
+.month {
+    text-align: center;
+    background-color: var(--secondary);
+    color: white;
+    padding: 10px;
+}
+
+.month h2 {
+    margin: 0;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.day {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid var(--white);
+}
+
+.day:hover {
+    background-color: var(--primary);
+    color: var(--white)
 }
