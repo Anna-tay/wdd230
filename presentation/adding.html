@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listeners</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <button id="myButton">Click me!</button>
+
+    <div>
+        <button id="cord">Where did you click</button>
+        <p id="x"></p>
+        <p id="y"></p>
+    </div>
+
+    <!-- delegation -->
+    <ul id="myList">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <script>
+        // showing you clicked
+        const button = document.getElementById('myButton');
+
+        button.addEventListener('click', function() {
+            alert('Button clicked!');
+        });
+
+
+        //object example
+
+        const cord = document.getElementById('cord');
+        let x = document.querySelector('#x');
+        let y = document.querySelector('#y');
+
+        cord.addEventListener('click', function(event) {
+            x.innerHTML = `this is the X: ${event.clientX}`;
+            y.innerHTML = `this is the Y: ${event.clientY}`;
+        });
+
+
+        // delegation
+
+        const list = document.getElementById('myList');
+
+        list.addEventListener('click', function(event) {
+            if (event.target.tagName === 'LI') {
+                alert(`You clicked on: ${event.target.innerText}`);
+            }
+        });
+
+
+    </script>
+</body>
+</html>
