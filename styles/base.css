@@ -138,3 +138,17 @@ section {
     border:0;
     display: none;
 }
+
+#temple_name{
+    position: absolute;
+    font-size: large;
+    background-color: rgba(255, 255, 255, 0.797);
+    top: 20px;
+    left: 20px;
+    white-space: nowrap;
+}
+
+#temple{
+    position: relative;
+
+}
