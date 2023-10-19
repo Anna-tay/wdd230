@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" href="images/GP.png">
+    <link rel="icon" href="images/GP.webp">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Anna Taylor" />
@@ -12,7 +12,7 @@
     <meta name="type" content="website" />
     <meta
     name="image"
-    content="images\tetons.jpg" />
+    content="images/hero.webp" />
     <meta name="url" content="http://127.0.0.1:5500/chamber/index.html" />
     <title>Chamber of commerce project</title>
 
@@ -26,8 +26,8 @@
     <header class="header-content">
         <div class="containor">
             <!-- logo -->
-            <img src="images/chamberblack.png" alt="logo picture" width="200px" id ="dark_pic">
-            <!-- <img src="images/chamberblack_logo.png" alt="logo picture" id ="dark_pic"> -->
+            <img src="images/chamberblack.webp" alt="logo picture" width="200px" id ="dark_pic">
+            <!-- <img src="images/chamberblack_logo.webp" alt="logo picture" id ="dark_pic"> -->
 
             <!-- hamburger button -->
             <div class="right_group">
@@ -58,7 +58,34 @@
             <section class="left-section">
                 <!-- hero -->
                 <div class="hero-image">
-                    <img src="images/hero.jpg" alt="people picture" style="text-align: center;" width="100%">
+                    <!-- <img src="images/hero.webp" alt="people picture" style="text-align: center;" width="100%"> -->
+                    <div id="hero_div">
+                        <picture>
+                            <div class="hero_container">
+                                <source srcset="images/small_hero_chamber.webp" media="(max-width: 500px)" class="hero_image">
+                                <div class="overlay">Small</div>
+                            </div>
+                            <div class="hero_container">
+                                <source srcset="images/medium_hero_chamber.webp" media="(max-width: 1000px)" class="hero_image">
+                                <div class="overlay">Medium</div>
+                            </div>
+                            <div class="hero_container">
+                                <img src="images/large_hero_chamber.webp" alt="Large Hero Image" class="hero_image">
+                                <div class="overlay">Large</div>
+                            </div>
+                        </picture>
+                    </div>
+
+                    <!-- <div id="hero_div">
+                        <picture>
+                            <label class="hero_type">Small</label>
+                            <source srcset="images/small_hero_chamber.webp" media="(max-width: 500px)" >
+                            <label class="hero_type">Medium</label>
+                            <source srcset="images/medium_hero_chamber.webp" media="(max-width: 1000px)" >
+                            <label class="hero_type">Large</label>
+                            <img src="images/large_hero_chamber.webp" alt="Large Hero Image" styles="width:auto;">
+                        </picture>
+                    </div> -->
                 </div>
 
                 <div class="calendar">
@@ -147,13 +174,17 @@
             </section>
         </div>
 
-        <div class="weather-card">
-            <i class="icon">☀️</i>
-            <div class="details">
-                <h3>Sunny Day</h3>
-                <p>Temperature: 25°C</p>
-                <p>Humidity: 40%</p>
-            </div>
+        <div class="weather-card" id="current-weather">
+            <h2>Current Weather</h2>
+            <p id="current-temperature">Loading...</p>
+        </div>
+        <div class="weather-card" id="wind-chill">
+            <h2>Wind Chill</h2>
+            <p id="wind-chill-value">Calculating...</p>
+        </div>
+        <div class="weather-card" id="tomorrow-weather">
+            <h2>Tomorrow's Weather</h2>
+            <p id="tomorrow-forecast">Loading...</p>
         </div>
 
         <section class="border">
@@ -174,5 +205,6 @@
 
    <script src="/scripts/getdata.js"></script>
    <script src="/scripts/hamburger.js"></script>
+   <script src="scripts/windchill.js"></script>
 </body>
 </html>
