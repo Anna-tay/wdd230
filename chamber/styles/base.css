@@ -166,7 +166,10 @@ input:checked + .slider:before {
     display: inline-block;
     background-color: var(--secondary);
     color: var(--white);
+}
 
+#large_hero_name, #medium_hero_name{
+    display: none;
 }
 
 .details {
@@ -211,7 +214,31 @@ input:checked + .slider:before {
     display: inline-block;
     margin: 10px; /* Adjust this as needed */
 }
+.hero {
+	margin: 10px auto;
+	position: relative;
+	border: 1px solid rgba(0,0,0,.1);
+	height: 300px;
+}
 
+.herolabel {
+	position: absolute;
+	top: 220px;
+	left: 30px;
+	background-color: var(--background);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+}
+
+.herolabel p {
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 2rem;
+	font-family:"Great Vibes", serif;
+}
 .hero_image {
     width: 100%;
     height: auto;

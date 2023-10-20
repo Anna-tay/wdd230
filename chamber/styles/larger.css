@@ -1,3 +1,9 @@
 @media (min-width: 1300px) {
+    #large_hero_name{
+        display: contents;
+    }
 
+    #medium_hero_name{
+        display: none;
+    }
 }

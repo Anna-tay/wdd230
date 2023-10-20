@@ -20,4 +20,12 @@
         display: block;
     }
 
+    #small_hero_name{
+        display: none;
+    }
+
+    #medium_hero_name{
+        display: contents;
+    }
+
 }

@@ -59,33 +59,19 @@
                 <!-- hero -->
                 <div class="hero-image">
                     <!-- <img src="images/hero.webp" alt="people picture" style="text-align: center;" width="100%"> -->
-                    <div id="hero_div">
+                    <div id="hero">
                         <picture>
-                            <div class="hero_container">
-                                <source srcset="images/small_hero_chamber.webp" media="(max-width: 500px)" class="hero_image">
-                                <div class="overlay">Small</div>
-                            </div>
-                            <div class="hero_container">
-                                <source srcset="images/medium_hero_chamber.webp" media="(max-width: 1000px)" class="hero_image">
-                                <div class="overlay">Medium</div>
-                            </div>
-                            <div class="hero_container">
+                            <source srcset="images/small_hero_chamber.webp" media="(max-width: 500px)" class="hero_image">
+                            <source srcset="images/medium_hero_chamber.webp" media="(max-width: 1000px)" class="hero_image">
                                 <img src="images/large_hero_chamber.webp" alt="Large Hero Image" class="hero_image">
-                                <div class="overlay">Large</div>
-                            </div>
+                                <div class="herolabel">
+                                    <p id="small_hero_name">Small</p>
+                                    <p id="medium_hero_name">Medium</p>
+                                    <p id="large_hero_name">Large</p>
+                                </div>
                         </picture>
                     </div>
 
-                    <!-- <div id="hero_div">
-                        <picture>
-                            <label class="hero_type">Small</label>
-                            <source srcset="images/small_hero_chamber.webp" media="(max-width: 500px)" >
-                            <label class="hero_type">Medium</label>
-                            <source srcset="images/medium_hero_chamber.webp" media="(max-width: 1000px)" >
-                            <label class="hero_type">Large</label>
-                            <img src="images/large_hero_chamber.webp" alt="Large Hero Image" styles="width:auto;">
-                        </picture>
-                    </div> -->
                 </div>
 
                 <div class="calendar">
