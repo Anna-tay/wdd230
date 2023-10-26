@@ -55,6 +55,7 @@ section{
     padding: 1rem;
     margin: 5px;
 }
+.hover:hover {box-shadow: none;}
 
 
 /* small view navigation */
@@ -256,3 +257,22 @@ input:checked + .slider:before {
     text-align: center;
 }
 
+
+.dis_img {
+    width: 400px;
+    margin: .5rem;
+    height: auto;
+    display: block;
+    background: black;
+    animation:  fade 15s;
+}
+
+@keyframes fade{
+    0% {
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}

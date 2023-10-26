@@ -12,6 +12,8 @@
         flex: 1;
     }
 
+    .hover:hover {box-shadow: 0 0 30px var(--secondary);}
+
     #menu{
         display: none;
     }
