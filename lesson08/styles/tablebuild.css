@@ -1,0 +1,33 @@
+table{
+    border-collapse: collapse;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+tbody {
+    border: thin solid black;
+    font-size: 95%;
+    font-style: italic;
+    background-color: white;
+}
+
+tbody > tr:nth-child(even) {
+    background-color: rgb(224, 222, 222);
+}
+
+thead {
+    background-color: gray;
+    color:white;
+}
+
+#head, #empty{
+    padding: 1rem;
+    background-color: black;
+    color:white;
+}
+
+#cap {
+    padding: 10px;
+    font-size: .85rem;
+}
