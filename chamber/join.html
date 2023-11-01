@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="images/GP.webp">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Anna Taylor" />
+    <meta
+    name="description"
+    content="Project to make a chamber of commerce website" />
+    <!-- title and img for when people share -->
+    <meta name="type" content="website" />
+    <meta
+    name="image"
+    content="images/hero.webp" />
+    <meta name="url" content="http://127.0.0.1:5500/chamber/index.html" />
+    <title>Chamber of commerce project</title>
+
+    <link rel="stylesheet" href="/styles/normalize.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <link rel="stylesheet" type="text/css" href="styles/medium.css">
+    <link rel="stylesheet" type="text/css" href="styles/larger.css">
+</head>
+<body class="background">
+    <header class="header-content">
+        <div class="containor">
+            <!-- logo -->
+            <img src="images/chamberblack.webp" alt="logo picture" width="200px" id ="dark_pic">
+            <!-- <img src="images/chamberblack_logo.webp" alt="logo picture" id ="dark_pic"> -->
+
+            <!-- hamburger button -->
+            <div class="right_group">
+                <label class="switch">
+                    <input type="checkbox" id="myCheckbox">
+                    <span class="slider"></span>
+                </label>
+                <button id="menu"></button>
+            </div>
+            <nav>
+                <ul class="nav navigation">
+                    <li class="nav-item"><a class = "nav-link active" href="index.html">Home</a><br></li>
+                    <li class="nav-item"><a class = "nav-link" href="/lesson03/chamber-site-plan.html">Site Plan</a><br></li>
+                    <li class="nav-item"><a class = "nav-link" href="discover.html">Discover</a><br></li>
+                    <li class="nav-item"><a class = "nav-link" href="">Directory</a><br></li>
+                    <li class="nav-item"><a class = "nav-link" href="#">Join</a><br></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main >
+        <div class="containor">
+            <section class="left-section border" id="stay">
+                <form method="get" action="thankyou.html">
+                    <fieldset>
+                        <legend>Application Information</legend>
+                        <label class="top">*First Name<input type="text" id="fname" name="fname" required></label>
+                        <label class="top">*Last Name<input type="text" id="fname" name="lname" required></label>
+                        <label class="top">Title or Position<input type="text" id="title" name="title" pattern="^[A-Za-z\s\-]{7,}$"></label>
+                        <label class="top">Email*<input type="email" id="email" name="email" placeholder="myemail@gmail.com" required></label>
+                        <label class="top">Phone<input type="tel" id="phone" name="phone" placeholder="1234437238"></label>
+
+                        <label class="top">Business/Organization's name<input type="text" id="business" name="business"></label>
+                        <label  class="top" for="memberlevel" >Membership level</label>
+                        <select id="memberlevel" name="level">
+                            <option value="">&#9662 Please select one </option>
+                            <option value="NP">NP Membership is for non profit organizations and there is no fee.</option>
+                            <option value="bronze">Bronze Membership</option>
+                            <option value="silver">Silver Membership</option>
+                            <option value="gold">Gold Membership</option>
+                        </select>
+
+                        <label class="top">business/organization's description<input type="text" id="description" name="description" ></label>
+                        <label class="top"><input type="hidden" id="timestamp" name="time"></label>
+
+                    </fieldset>
+
+                    <input type="submit" value="Submit" class="submitBtn">
+                </form>
+
+            </section>
+
+            <section class="right-section border">
+                <h1>Membership Levels</h1>
+                <hr>
+                <hr>
+                <h2>NP Membership</h2>
+                <p><strong>Description:</strong> Membership is for non-profit organizations, and there is no fee.</p>
+                <p><strong>Benefits:</strong></p>
+                <ul>
+                    <li>Access to our online community and discussion forums.</li>
+                    <li>Subscription to our newsletter.</li>
+                    <li>Listing in our directory of non-profit organizations.</li>
+                    <li>Opportunity to participate in volunteer programs.</li>
+                </ul>
+                <hr>
+                <h2>Bronze Membership</h2>
+                <p><strong>Description:</strong> Our basic membership level with some added benefits.</p>
+                <p><strong>Benefits:</strong></p>
+                <ul>
+                    <li>All NP Membership benefits.</li>
+                    <li>Invitation to our annual networking event.</li>
+                    <li>10% discount on tickets to our fundraising events.</li>
+                    <li>Monthly spotlight position on our website's "Member of the Month" section.</li>
+                </ul>
+                <hr>
+                <h2>Silver Membership</h2>
+                <p><strong>Description:</strong> A step up from Bronze with more benefits.</p>
+                <p><strong>Benefits:</strong></p>
+                <ul>
+                    <li>All Bronze Membership benefits.</li>
+                    <li>Priority access to training workshops and webinars.</li>
+                    <li>20% discount on tickets to our fundraising events.</li>
+                    <li>Quarterly spotlight position on our website's home page.</li>
+                    <li>Exclusive access to our members-only resources.</li>
+                </ul>
+                <hr>
+                <h2>Gold Membership</h2>
+                <p><strong>Description:</strong> Our premium membership level with the most benefits.</p>
+                <p><strong>Benefits:</strong></p>
+                <ul>
+                    <li>All Silver Membership benefits.</li>
+                    <li>Complimentary admission to all our special events.</li>
+                    <li>30% discount on tickets to our fundraising events.</li>
+                    <li>Bi-weekly spotlight positions on our home page.</li>
+                    <li>Priority access to advertising opportunities on our website.</li>
+                </ul>
+
+            </section>
+        </div>
+
+   </main>
+   <footer style="text-align: center;" >
+    <p>&#169 2023 Anna Taylor, Idaho <br>
+    Project for WDD 230</p>
+    <p id="lastModified"></p>
+
+   </footer>
+   <script src="scripts/darkmode.js"></script>
+   <script src="scripts/join.js"></script>
+   <script src="/scripts/getdata.js"></script>
+   <script src="/scripts/hamburger.js"></script>
+   <script src="scripts/windchill.js"></script>
+</body>
+</html>
