@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+}
+
+#cards {
+    align-items: center;
+    text-align: center;
+    background-color: rgba(71, 118, 122, 0.397);
+    padding: 1rem;
+    margin: 1rem;
+
+}

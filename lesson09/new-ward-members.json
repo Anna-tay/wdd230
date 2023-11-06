@@ -1,0 +1,28 @@
+{
+        "familyName": "Taylors",
+        "movedIn": "12-03-2021",
+        "numberRecords": 4,
+        "visitBishopric": "True",
+        "embers": [
+            {
+                "name": "Peter",
+                "gender": "Male",
+                "birthDate": "06-20-1980"
+            },
+            {
+                "name": "Anna",
+                "gender": "Female",
+                "birthDate": "07-10-1986"
+            },
+            {
+                "name": "Luke",
+                "gender": "Male",
+                "birthDate": "04-02-2007"
+            },
+            {
+                "name": "Joe",
+                "gender": "Male",
+                "birthDate": "02-27-2009"
+            }
+        ]
+}
