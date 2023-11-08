@@ -32,7 +32,7 @@ const displayProphets = (prophets) => {
 
       cards.appendChild(sec);
     }); // end of arrow function and forEach loop
-  }
+}
 
 async function getProphetsData(url) {
     const response = await fetch(url);
