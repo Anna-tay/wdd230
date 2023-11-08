@@ -9,7 +9,7 @@ const displayLinks = (weeks) => {
       // Create elements to add to the div.cards element
       let li = document.createElement('li');
 
-      li.textContent = `${week.lesson}`;
+      li.textContent = ` ${week.lesson}: `;
 
       let links_number = week.links;
       links_number.forEach((link) => {
@@ -31,7 +31,7 @@ const displayLinks = (weeks) => {
 async function getLinks() {
     const response = await fetch(linksURL);
     const data = await response.json();
-    displayLinks(data);
+    displayLinks(data.lessons);
 }
 
 getLinks();

@@ -4,20 +4,20 @@
             "lesson": "02",
             "links": [
                 {
-                    "url": "my url",
-                    "title": "my title"
+                    "url": "lesson02/design-principles.html",
+                    "title": "Design Principles"
                 },
                 {
-                    "url": "myurl",
-                    "title": "second title"
+                    "url": "lesson02/design.html",
+                    "title": "Design"
                 }
             ]},
         {
             "lesson": "03",
             "links": [
                 {
-                    "url": "my url",
-                    "title": "my title"
+                    "url": "lesson03/chamber-site-plan.html",
+                    "title": "Chamber site plan"
                 }
             ]},
         {
@@ -32,48 +32,72 @@
             "lesson": "05",
             "links": [
                 {
-                    "url": "my url",
-                    "title": "my title"
+                    "url": "lesson05/bom.html",
+                    "title": "BOM"
                 }
             ]},
         {
             "lesson": "06",
             "links": [
                 {
-                    "url": "my url",
-                    "title": "my title"
+                    "url": "lesson06/responcive-img-temple.html",
+                    "title": "Responsive temple pics"
+                },
+                {
+                    "url": "lesson06/responive-images.html",
+                    "title": "Responsive pics"
                 }
             ]},
         {
             "lesson": "07",
             "links": [
                 {
-                    "url": "my url",
-                    "title": "my title"
+                    "url": "lesson07/bomjava.html",
+                    "title": "Bom with java"
+                },
+                {
+                    "url": "lesson07/lazyload.html",
+                    "title": "Lazy loading"
                 }
             ]},
         {
             "lesson": "08",
             "links": [
             {
-                "url": "my url",
-                "title": "my title"
-                }
+                "url": "lesson08/form.html",
+                "title": "Form"
+                },
+                {
+                    "url": "lesson08/record.html",
+                    "title": "Record"
+                    },
+                    {
+                        "url": "lesson08/tablebuild.html",
+                        "title": "Tale Build"
+                        },
+                        {
+                            "url":"lesson08/form-start/index.html",
+                            "title": "Form Start"
+                        }
         ]},
         {
             "lesson": "09",
             "links": [
                 {
-                    "url": "my url",
-                        "title": "my title"
-                    }
+                    "url": "lesson09/new-ward-members.json",
+                        "title": "New ward json"
+                    },
+                    {
+                        "url": "lesson09/prophets.html",
+                            "title": "Prophets"
+                        }
         ]},
         {
             "lesson": "10",
             "links": [
                 {
                     "url": "my url",
-                    "title": "my title"
+                    "title": "NOT DONE YET"
                 }
             ]}
 
