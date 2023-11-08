@@ -1,7 +1,6 @@
 // change these to your own links
-const baseURL = "https://anna-tay.github.io/wdd230/"
 const linksURL = "/data/links.json";
-const ul = document.querySelector('#lessons')
+const ul = document.querySelector('#lessons');
 
 
 const displayLinks = (weeks) => {
@@ -23,7 +22,7 @@ const displayLinks = (weeks) => {
       })
 
 
-      cards.appendChild(li);
+      ul.appendChild(li);
     }); // end of arrow function and forEach loop
 }
 
@@ -31,6 +30,7 @@ const displayLinks = (weeks) => {
 async function getLinks() {
     const response = await fetch(linksURL);
     const data = await response.json();
+    console.log(data.lessons);
     displayLinks(data.lessons);
 }
 
