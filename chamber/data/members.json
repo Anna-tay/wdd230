@@ -1,0 +1,76 @@
+{
+    "companies": [
+      {
+        "name": "ABC Electronics",
+        "address": "123 Main Street, Rexburg, ID 83440",
+        "phone": "(208) 555-1234",
+        "website": "https://www.abc-electronics.com",
+        "image": "images/im2.webp",
+        "membership_level": "Gold",
+        "other_info": "Leading provider of electronic gadgets."
+      },
+      {
+        "name": "XYZ Marketing",
+        "address": "456 Elm Avenue, Rexburg, ID 83440",
+        "phone": "(208) 555-5678",
+        "website": "https://www.xyz-marketing.com",
+        "image": "images/img3.webp",
+        "membership_level": "Silver",
+        "other_info": "Digital marketing and advertising agency."
+      },
+      {
+        "name": "Smith & Co. Law Firm",
+        "address": "789 Oak Street, Rexburg, ID 83440",
+        "phone": "(208) 555-9012",
+        "website": "https://www.smith-lawfirm.com",
+        "image": "images/img4.webp",
+        "membership_level": "Platinum",
+        "other_info": "Experienced legal services for individuals and businesses."
+      },
+      {
+        "name": "Sunrise Café",
+        "address": "1010 Pine Drive, Rexburg, ID 83440",
+        "phone": "(208) 555-3456",
+        "website": "https://www.sunrise-cafe.com",
+        "image": "images/img5.webp",
+        "membership_level": "Bronze",
+        "other_info": "Popular breakfast and brunch spot."
+      },
+      {
+        "name": "Rexburg Fitness Center",
+        "address": "1313 Cedar Lane, Rexburg, ID 83440",
+        "phone": "(208) 555-7890",
+        "website": "https://www.rexburg-fitness.com",
+        "image": "images/small_hero_chamber.webp",
+        "membership_level": "Gold",
+        "other_info": "State-of-the-art fitness facility."
+      },
+      {
+        "name": "GreenTech Solutions",
+        "address": "1616 Birch Road, Rexburg, ID 83440",
+        "phone": "(208) 555-2345",
+        "website": "https://www.greentech-solutions.com",
+        "image": "images/img7.webp",
+        "membership_level": "Silver",
+        "other_info": "Sustainable technology and solutions provider."
+      },
+      {
+        "name": "Rexburg Pet Clinic",
+        "address": "2020 Willow Lane, Rexburg, ID 83440",
+        "phone": "(208) 555-6789",
+        "website": "https://www.rexburg-petclinic.com",
+        "image": "images/img8.webp",
+        "membership_level": "Bronze",
+        "other_info": "Veterinary care for pets of all kinds."
+      },
+      {
+        "name": "Blue Sky Construction",
+        "address": "2424 Sycamore Street, Rexburg, ID 83440",
+        "phone": "(208) 555-1234",
+        "website": "https://www.bluesky-construction.com",
+        "image": "images/im2.webp",
+        "membership_level": "Platinum",
+        "other_info": "Quality construction and renovation services."
+      }
+    ]
+  }
