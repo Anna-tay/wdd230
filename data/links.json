@@ -96,8 +96,8 @@
             "lesson": "10",
             "links": [
                 {
-                    "url": "my url",
-                    "title": "NOT DONE YET"
+                    "url": "/lesson10/weather.html",
+                    "title": "Weather"
                 }
             ]}
 
