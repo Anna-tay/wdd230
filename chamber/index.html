@@ -74,6 +74,12 @@
 
                 </div>
 
+                <!-- Banner Container -->
+                <div id="banner-container" class="banner-container">
+                    <p>Join us for the Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.</p>
+                    <button id="close-banner-btn" class="close-btn" onclick="closeBanner()">❌ Close</button>
+                </div>
+
                 <div class="calendar">
                     <div class="month">
                         <h2>October 2023</h2>
@@ -160,17 +166,28 @@
             </section>
         </div>
 
+        <h3>Temperature for the next three days</h3>
+        <p>Rexburg, Idaho </p>
         <div class="weather-card" id="current-weather">
-            <h2>Current Weather</h2>
-            <p id="current-temperature">Loading...</p>
+            <figure>
+                <h6>Today <span id="current-temp"></span></h6>
+                <img id="weather-icon" src="" alt="">
+                <p id="description"></p>
+            </figure>
         </div>
         <div class="weather-card" id="wind-chill">
-            <h2>Wind Chill</h2>
-            <p id="wind-chill-value">Calculating...</p>
+            <h6>Tomorrow <span id="current-temp_tom"></span></h6>
+            <figure>
+                <img id="weather-icon_tom" src="" alt="">
+                <p id="description_tom"></p>
+            </figure>
         </div>
         <div class="weather-card" id="tomorrow-weather">
-            <h2>Tomorrow's Weather</h2>
-            <p id="tomorrow-forecast">Loading...</p>
+            <h6>Next Day <span id="current-temp_nd"></span></h6>
+            <figure>
+                <img id="weather-icon_nd" src="" alt="">
+                <p id="description_nd"></p>
+            </figure>
         </div>
 
         <section class="border">
@@ -187,11 +204,12 @@
     <p id="lastModified"></p>
 
    </footer>
+   <script src="scripts/weather.js"></script>
    <script src="scripts/darkmode.js"></script>
    <script src="scripts/index.js"></script>
 
    <script src="/scripts/getdata.js"></script>
    <script src="/scripts/hamburger.js"></script>
-   <script src="scripts/windchill.js"></script>
+   <!-- <script src="scripts/windchill.js"></script> -->
 </body>
 </html>
