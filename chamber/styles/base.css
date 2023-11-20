@@ -3,7 +3,7 @@
     --white: #f0f3f5;
     --primary: #7b2d26;
     --secondary: #0b7a75;
-    --background: #d7c9aa;
+    --background: #d8cbb0;
     --dark: #08181b;
     --black: black;
 
@@ -191,8 +191,8 @@ input:checked + .slider:before {
 
 .herolabel {
 	position: absolute;
-	top: 220px;
-	left: 30px;
+	top: 240px;
+	left: 40px;
 	background-color: var(--background);
 	border: 1px solid rgba(0,0,0,.75);
 	padding: 1.5rem;
