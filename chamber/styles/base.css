@@ -177,39 +177,6 @@ input:checked + .slider:before {
     flex-grow: 1;
 }
 
-
-.calendar {
-    font-family: Arial, sans-serif;
-}
-
-.month {
-    text-align: center;
-    background-color: var(--secondary);
-    color: white;
-    padding: 10px;
-}
-
-.month h2 {
-    margin: 0;
-}
-
-.days {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-}
-
-.day {
-    text-align: center;
-    padding: 10px;
-    border: 1px solid var(--white);
-}
-
-.day:hover {
-    background-color: var(--primary);
-    color: var(--white)
-}
-
-
 .hero_container {
     position: relative;
     display: inline-block;
@@ -418,3 +385,29 @@ form label.top input:required:valid{
 .close-btn {
     cursor: pointer;
 }
+
+#spotlight_name{
+    margin: 1rem;
+}
+
+#spotlight {
+    border: .5px solid var(--primary);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+  .member {
+
+    margin: 1rem;
+    width: 100%;
+
+  }
+  .member h2 {
+    border: 1px solid #ccc;
+    padding: 12px;
+    color: white;
+    background-color: var(--secondary);
+    text-align: center;
+  }
+
