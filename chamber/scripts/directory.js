@@ -23,7 +23,7 @@ const display_data = (datas) =>{
     datas.forEach((data) => {
       let sec = document.createElement('section');
       let name = document.createElement('h1');
-      let contact = document.createElement('h6');
+      let contact = document.createElement('h2');
       let line = document.createElement('hr');
       let website = document.createElement('a');
       let image = document.createElement('img');
@@ -61,7 +61,7 @@ const display_data = (datas) =>{
 async function getData(url) {
     const response = await fetch(url);
     const data = await response.json();
-    console.log(data.companies);
+    // console.log(data.companies);
     display_data(data.companies);
 }
 

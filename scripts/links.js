@@ -30,7 +30,7 @@ const displayLinks = (weeks) => {
 async function getLinks() {
     const response = await fetch(linksURL);
     const data = await response.json();
-    console.log(data.lessons);
+    // console.log(data.lessons);
     displayLinks(data.lessons);
 }
 
