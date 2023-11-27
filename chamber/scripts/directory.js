@@ -22,8 +22,8 @@ json_data = "data/members.json";
 const display_data = (datas) =>{
     datas.forEach((data) => {
       let sec = document.createElement('section');
-      let name = document.createElement('h1');
-      let contact = document.createElement('h2');
+      let name = document.createElement('h5');
+      let contact = document.createElement('h6');
       let line = document.createElement('hr');
       let website = document.createElement('a');
       let image = document.createElement('img');

@@ -57,6 +57,11 @@ section{
 }
 .hover:hover {box-shadow: none;}
 
+.light-drak{
+    margin-top: 10px;
+    background-color: var(--secondary);
+    color:white;
+}
 
 /* small view navigation */
 #menu {

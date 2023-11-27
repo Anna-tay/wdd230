@@ -25,7 +25,7 @@ function closeBanner() {
 
 document.addEventListener('DOMContentLoaded', function () {
     // Fetch the JSON data
-    fetch("/chamber/data/members.json")
+    fetch("data/members.json")
       .then(response => response.json())
       .then(data => {
         // Filter members with Gold or Silver membership level
