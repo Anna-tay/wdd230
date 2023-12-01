@@ -401,12 +401,9 @@ form label.top input:required:valid{
     flex-wrap: wrap;
 
 }
-
   .member {
-
     margin: 1rem;
     width: 100%;
-
   }
   .member h2 {
     border: 1px solid #ccc;

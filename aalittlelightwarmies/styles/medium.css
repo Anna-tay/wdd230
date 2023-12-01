@@ -1,0 +1,46 @@
+@media (min-width: 800px) {
+    .containor{
+        display:flex;
+        justify-content: space-between;
+    }
+
+    .left-section{
+        flex:1;
+    }
+
+    .right-section{
+        flex: 1;
+    }
+
+    .hover:hover {box-shadow: 0 0 30px var(--secondary);}
+
+    #menu{
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+    }
+
+    .image-container {
+        display: flex;
+        flex: auto; /* Allow the p tags to wrap */
+      }
+    
+      .image-container img {
+        margin-right: 20px; /* Adjust the margin as needed */
+      }
+      .image-container p{
+        font-size: 20px;
+      }
+
+      #inventory {
+        border: .5px solid var(--primary);
+        display: flex;
+        flex-wrap: wrap;
+        border-color: var(--third);
+        border-width: 5px;
+      
+      }
+
+}

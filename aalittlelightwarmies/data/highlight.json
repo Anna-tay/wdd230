@@ -1,0 +1,22 @@
+{
+    "items": [
+      {
+        "name": "Alpaca",
+        "price": "$ 30.00",
+        "images": ["images/alpaca.webp"],
+        "other_info": "Nestled in soft, huggable fur, this adorable stuffed animal features big, round eyes that sparkle with innocence, capturing hearts at first glance."
+      },
+      {
+        "name": "Cow",
+        "price": "$ 50.00",
+        "images": ["images/cow.webp", "images/cow2.webp"],
+        "other_info": "Its fuzzy ears perk up inquisitively, adding an extra touch of charm to this endearing stuffed creature, making it irresistibly cute and delightful."
+      },
+      {
+        "name": "Turkey",
+        "price": "$ 60.00",
+        "images": ["images/turkey.webp", "images/turkey2.webp"],
+        "other_info": "With a velvety touch and an enchanting expression, this lovable stuffed companion is a heartwarming reminder that even the smallest cuddles can bring immense joy."
+      }
+    ]
+  }

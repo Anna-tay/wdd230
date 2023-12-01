@@ -1,0 +1,50 @@
+
+/* colors and themes*/
+:root{
+    --white: #f0f3f5;
+    --background: rgb(240, 219, 174);
+    --primary: rgb(231, 189, 109);
+    --secondary: rgb(215, 170, 180);
+    --dark: rgb(37, 74, 82);
+
+    --primary_font: Arial;
+    --secondary_font: sans-serif;
+};
+
+.change{
+    background-color: var(--background);
+}
+
+/* colors */
+
+.primaryColor {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.secondary {
+    background-color: var(--secondary);
+    color: var(--white);
+}
+.white {
+    background-color: var(--white);
+}
+.background {
+    background-color: var(--background);
+}
+.dark {
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+.boxs{
+    height: 30px;
+}
+/* fonts */
+.bigfont {
+    font-family: var(--primary_font);
+}
+.smallfont {
+    font-family: var(--secondary_font);
+}
+
