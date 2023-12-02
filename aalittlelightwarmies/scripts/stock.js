@@ -38,6 +38,7 @@ const displayData = (invs) => {
 
             divs.appendChild(img);
         });
+        link.classList.add("buttons");
 
         // Set the content of the elements
         name.textContent = item.name;

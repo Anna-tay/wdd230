@@ -29,11 +29,14 @@
             <!-- Top Navigation Bar -->
             <div class="topnav">
                 <a  href="index.html">Home</a>
-                <!-- <a  href="site-plan.html">Site Plan</a> -->
+                <a  href="site-plan.html">Site Plan</a>
                 <a  href="about.html">About Me</a>
-                <a  href="stock.html">stock</a>
-                <div style="float:right">
-                    <p class="light-drak">Light mode</p>
+                <a class = "nav-link" href="stock.html">stock</a>
+                <div style="float:bottom;  text-align: center;">
+                    <label class="switch" for="myCheckbox">
+                        <input type="checkbox" id="myCheckbox">
+                        <p class="light-drak box">Light mode</p>
+                    </label>
                     <button id="menu"  aria-label="navigation bar"> </button>
                 </div>
             </div>
@@ -44,17 +47,42 @@
         <section>
             <form method="get" action="thankyou.html">
                 <fieldset>
-                    <legend>Application Information</legend>
+                    <h3>Application Information</h3>
                     <label class="top">*First Name<input type="text" id="fname" name="fname" required></label>
                     <label class="top">*Last Name<input type="text" id="fname" name="lname" required></label>
-                    <label class="top">Email*<input type="email" id="email" name="email" placeholder="myemail@gmail.com" required></label>
+                    <label class="top">*Email<input type="email" id="email" name="email" placeholder="myemail@gmail.com" required></label>
                     <label class="top">Phone<input type="tel" id="phone" name="phone" placeholder="1234437238"></label>
 
-                    <label class="top"><input type="hidden" id="timestamp" name="time"></label>
+                    <h3>Mailing address</h3>
+                    <label class="top">*Address<input type="text" id="address" name="address"  placeholder="123 mystreet" required></label>
+                    <label class="top">*City<input type="text" id="city" name="city" required></label>
+                    <label class="top">*State<input type="text" id="state" name="state" required></label>
+                    <label class="top">*Zip code<input type="text" id="zip" name="zip" required></label>
 
+
+                    <!-- payment section -->
+                    <h3>Payment</h3>
+                    <label class="top">*Name on Card<input type="text" id="nameCard" name="nameCard" required></label>
+                    <label class="top">*Card Number<input type="text" id="cardNumber" name="cardNumber" required></label>
+                    <label class="top">*Expiration Date<input type="text" id="ed" name="ed" placeholder="06/23" required></label>
+                    <label class="top">*security code<input type="text" id="securityCode" name="securityCode" required></label>
+
+
+                    <h3>Billing Address </h3>
+                    <label for="mailingCheck">
+                        <p >Same as Mailing address <input type="checkbox" id="mailingCheck"></p>
+                    </label>
+                    <!-- do a check if it is the same as mailing -->
+                    <div id="billing">
+                        <label class="top">Address<input type="text" id="baddress" name="baddress"  placeholder="123 mystreet" ></label>
+                        <label class="top">City<input type="text" id="bcity" name="bcity" ></label>
+                        <label class="top">State<input type="text" id="bstate" name="bstate" ></label>
+                        <label class="top">Zip code<input type="text" id="bzip" name="bzip" ></label>
+                    </div>
+                    <label class="top"><input type="hidden" id="timestamp" name="time"></label>
                 </fieldset>
 
-                <input type="submit" value="Submit" class="submitBtn">
+                <input type="submit" value="Submit" class="buttons">
             </form>
 
         </section>

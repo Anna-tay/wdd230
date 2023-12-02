@@ -2,10 +2,13 @@
 :root{
     --white: rgb(255, 255, 255);
     --background: #f0dbae;
-    --primary: #f0dbae;
+    --primary: hsl(41, 69%, 81%);
     --secondary: #e7bd6d;
+    --secondDark: #b79a65;
     --third: #f3ccd589;
     --dark: #162e33;
+    --red: #de050589;
+    --green: #0e702aac;
 
     --primary_font: Arial;
     --secondary_font: sans-serif;
@@ -175,4 +178,70 @@ section{
 
 footer{
  margin: 1rem;
+}
+
+/* -------------------- Buy html ------------- */
+#billing {
+  display: block;
+}
+
+form fieldset {
+  margin: 2rem 0;
+  border: 1 px solid black;
+  border-radius: 10px;
+  padding: .5rem 2%;
+
+}
+form h3 {
+  margin-top: 1rem;
+  border-color: var(--third);
+  margin-bottom: 0rem;
+  padding: 1rem;
+  width: 100%;
+  max-width: 30rem;
+}
+
+form label.top, form div{
+  display: block;
+  color: black;
+  padding-top: 1rem;
+  font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px black;
+  border-radius: 4px;
+  padding: .7rem;
+  color: black;
+  width: 100%;
+  max-width: 30rem;
+  background-color: rgba(255, 255, 255, 0.461);
+}
+
+form label.top input:required{
+  border-left: var(--red) solid 6px;
+}
+
+form label.top input:required:valid{
+  border-left: var(--green) solid 6px;
+}
+
+.buttons{
+  /* border: none; */
+  background-color: var(--secondary);
+  color: white;
+  border-color: var(--secondary);
+  border-radius: 1rem;
+  padding: .75rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;;
+}
+
+.buttons:hover{
+  border-color: white;
+  border-bottom-color: white;
+  border-right-color: white;
 }
