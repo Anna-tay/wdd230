@@ -17,7 +17,7 @@ const displayData = (news, invs) => {
       when.textContent = `When ${new_news.when}`;
       other_info.textContent = `Info: ${new_news.other_info}`;
 
-      title.setAttribute('style', `background-color: #e7bd6d; padding: 1rem; `);
+      title.setAttribute('style', `background-color: #f1b96a; padding: 1rem; `);
 
       // Append the section(card) with the created elements
       sec.appendChild(title);
@@ -27,11 +27,11 @@ const displayData = (news, invs) => {
       whats_new.appendChild(sec);
     }); // end of arrow function and forEach loop
 
-    // Create a container div to hold all the cards
+    // Iterate through each item in the 'items' array
     let container = document.createElement('div');
     container.style.display = 'flex';
+    container.style.flexWrap = 'wrap'; // Allow cards to wrap to the next line
 
-    // Iterate through each item in the 'items' array
     invs.forEach((item) => {
         // Create elements for the card
         let card = document.createElement('div');

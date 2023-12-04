@@ -1,9 +1,16 @@
 @media (min-width: 1300px) {
-    #large_hero_name{
-        display: contents;
+    .containor{
+        display:flex;
+        justify-content: space-between;
     }
 
-    #medium_hero_name{
-        display: none;
+    .left-section{
+        flex:1;
     }
+
+    .right-section{
+        flex: 1;
+        display: block;
+    }
+
 }

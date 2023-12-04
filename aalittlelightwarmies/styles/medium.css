@@ -1,16 +1,4 @@
 @media (min-width: 800px) {
-    .containor{
-        display:flex;
-        justify-content: space-between;
-    }
-
-    .left-section{
-        flex:1;
-    }
-
-    .right-section{
-        flex: 1;
-    }
 
     .hover:hover {box-shadow: 0 0 30px var(--secondary);}
 
@@ -18,7 +6,7 @@
         display: none;
     }
 
-    .navigation li {
+    .topnav{
         display: block;
     }
 
@@ -42,5 +30,18 @@
         border-width: 5px;
       
       }
+      .containor{
+        display:flex;
+        justify-content: space-between;
+    }
+
+    .left-section{
+        flex:1;
+    }
+
+    .right-section{
+        flex: 1;
+        display: block;
+    }
 
 }

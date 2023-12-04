@@ -27,7 +27,7 @@
       {
         "name": "Lama",
         "price": "$ 40.00",
-        "images": ["images/lama.webp"],
+        "images": ["images/brownlammma.webp"],
         "other_info": "Sporting a playful demeanor, this little stuffed buddy boasts a whimsical expression that invites joy and companionship, making it impossible to resist its charm."
       },
       {
@@ -47,6 +47,12 @@
         "price": "$ 60.00",
         "images": ["images/turkey.webp", "images/turkey2.webp"],
         "other_info": "With a velvety touch and an enchanting expression, this lovable stuffed companion is a heartwarming reminder that even the smallest cuddles can bring immense joy."
+      },
+      {
+        "name": "Zebra",
+        "price": "$ 70.00",
+        "images": ["images/zebra.webp", "images/zebra2.webp"],
+        "other_info": "Go on adventures with the cute, cuddly and friendly Zebra. It will take you on the best adventures."
       }
     ]
   }

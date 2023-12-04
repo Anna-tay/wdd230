@@ -1,11 +1,11 @@
 /* colors and themes*/
 :root{
     --white: rgb(255, 255, 255);
-    --background: #f0dbae;
-    --primary: hsl(41, 69%, 81%);
-    --secondary: #e7bd6d;
-    --secondDark: #b79a65;
-    --third: #f3ccd589;
+    --background: #fcf4dd;
+    --primary: #f1b96a;
+    --secondary: #f1b96a;
+    --secondDark: #b98e52;
+    --third: #ffc7d68e;
     --dark: #162e33;
     --red: #de050589;
     --green: #0e702aac;
@@ -61,20 +61,49 @@ section{
 	background-color: #eee;
 	color: #000;
  	position: absolute;
-	top: 1 rem;
+	top: 1rem;
 }
 .right_group{
-    right: 0;
+  margin-top: 1rem;
+  right: 3rem;
 }
 
 #menu::before {
 	content: "☰";
 }
-
-#menu.open::before {
+.open_background{
+  background-color: #eee;
+  padding: 2rem;
+  width: 88%;
+}
+#menu.open::before{
 	content: "❌";
 }
+.topnav {
+	display: none;
+}
+.topnav a {
+	display: block;
+	padding: 1rem;
+	text-decoration: none;
+	color: black;
+  font-size: 1.5rem;
+  border: 1px solid var(--dark);
+  width: 7rem;
+}
+.topnav a:hover {
+	background-color: var(--secondary);
+	color: var(--white);
+	font-weight: 700;
+}
+.open {
+	display: block;
+	width: 88%;
+}
+.open a {
+  background-color: #eee;
 
+}
 /* know is on here ----------------------*/
 
 /* Hide default HTML checkbox */
@@ -82,12 +111,12 @@ section{
   opacity: 0;
   width: 0;
   height: 0;
-
 }
-
 
 .box {
     border: 1px solid var(--dark);
+    border-radius: 10px;
+    padding: .5rem;
 }
 
 
@@ -185,16 +214,9 @@ footer{
   display: block;
 }
 
-form fieldset {
-  margin: 2rem 0;
-  border: 1 px solid black;
-  border-radius: 10px;
-  padding: .5rem 2%;
 
-}
 form h3 {
   margin-top: 1rem;
-  border-color: var(--third);
   margin-bottom: 0rem;
   padding: 1rem;
   width: 100%;
@@ -208,6 +230,10 @@ form label.top, form div{
   font-size: .8rem;
 }
 
+#buyform{
+  background-color: var(--dark);
+}
+
 form label.top input, form label.top select {
   display: block;
   font-size: 1rem;
@@ -215,7 +241,7 @@ form label.top input, form label.top select {
   border-radius: 4px;
   padding: .7rem;
   color: black;
-  width: 100%;
+  width: 80%;
   max-width: 30rem;
   background-color: rgba(255, 255, 255, 0.461);
 }
@@ -236,7 +262,7 @@ form label.top input:required:valid{
   border-radius: 1rem;
   padding: .75rem;
   margin: 0 0 2rem 2%;
-  width: 96%;
+  width: 94%;
   max-width: 20rem;;
 }
 
@@ -244,4 +270,35 @@ form label.top input:required:valid{
   border-color: white;
   border-bottom-color: white;
   border-right-color: white;
+}
+
+.right-section{
+  display: none;
+  text-align: center;
+  position: relative;
+}
+
+.buyimg {
+    position: absolute;
+    margin: 10px; /* Adjust the margin between the images as needed */
+}
+#imgbuy1{
+  top: 8rem;
+  left: 2rem;
+}
+#imgbuy2{
+  top: 26rem;
+  right: 2rem;
+}
+#imgbuy3{
+  top: 44rem;
+  left: 1.5rem;
+}
+#imgbuy4{
+  top: 62rem;
+  right: 3rem;
+}
+#imgbuy5{
+  top: 80rem;
+  left: 10px;
 }
