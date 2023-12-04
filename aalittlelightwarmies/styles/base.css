@@ -314,3 +314,8 @@ form label.top input:required:valid{
   color: var(--secondary);
 
 }
+#profile_pic{
+  width: 80%;
+  min-width: 200px;
+  height: 80%;
+}
