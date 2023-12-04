@@ -302,3 +302,15 @@ form label.top input:required:valid{
   top: 80rem;
   left: 10px;
 }
+
+#stuffed_animals{
+  text-align: center;
+
+}
+.contact h3 a{
+  color: var(--dark);
+}
+.contact h3 a:hover{
+  color: var(--secondary);
+
+}
