@@ -260,7 +260,6 @@ form label.top input:required:valid{
 .buttons{
   /* border: none; */
   background-color: var(--secondary);
-  color: white;
   border-color: var(--secondary);
   border-radius: 1rem;
   padding: .75rem;
