@@ -76,7 +76,7 @@ section{
   padding: 2rem;
   width: 88%;
 }
-#menu.open::before{
+#menu.openmenu::before{
 	content: "❌";
 }
 .topnav {
@@ -96,13 +96,16 @@ section{
 	color: var(--white);
 	font-weight: 700;
 }
+.openmenu {
+	display: block;
+	width: 38px;
+}
 .open {
 	display: block;
 	width: 88%;
 }
 .open a {
   background-color: #eee;
-
 }
 /* know is on here ----------------------*/
 
@@ -264,6 +267,7 @@ form label.top input:required:valid{
   margin: 0 0 2rem 2%;
   width: 94%;
   max-width: 20rem;;
+  font-size: 1rem;
 }
 
 .buttons:hover{

@@ -7,7 +7,7 @@ const hamdiv = document.querySelector('.background_hamburger');
 // adding an event listener to the elements
 hamButton.addEventListener('click', () => {
 	navigation.classList.toggle('open');
-	hamButton.classList.toggle('open');
+	hamButton.classList.toggle('openmenu');
 	hamdiv.classList.toggle('open_background');
 
 });
